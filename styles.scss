@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+//mobile styling
+header {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+
+.logo-container {
+    margin-left: 1.5rem;
+}
+
+.mobile-menu-container {
+    margin-right: 1.5rem;
+}
+
+.header-button {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+
+    li{
+        margin-top: 1rem;
+    }
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    top: 70px;
+    left: 5%;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.hero{
+    padding-top: 60px;
+}
+
+.image-section {
+    width: 100%;
+    
+    background: url('/images/bg-intro-mobile.svg') no-repeat;
+
+    img {
+        margin-top: -90px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.hero-container {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        font-size: 38px;
+        color:hsl(233, 26%, 24%);
+    }
+
+    p {
+        font-size: 18px;
+        color: gray;
+        margin: 1rem 0rem;
+    }
+    button {
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+        font-size: 18px;
+        border: none;
+        color: white;
+        width: 55%;
+        height: 3.5rem;
+        border-radius: 50px;
+    }
+}
+
+.incentives {
+    margin-top: 3rem;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.why {
+    padding-top: 3rem;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    
+    h2 {
+        font-weight: 300;
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+        color: gray;
+    }
+}
+
+.incentive-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        width: 90%;
+        text-align: center;
+    }
+    h2 {
+        margin-top: 1rem;
+        font-weight: 300;
+        font-size: 22px;
+    }
+    p {
+        margin-top: 1rem;
+        color: gray;
+        font-size: 18px;
+    }
+    .open-api {
+        padding-bottom: 3rem;
+    }
+}
